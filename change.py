@@ -10,5 +10,6 @@ def change():
     print ("Pesos:")
     print (int(vuelto))
     print ("Centavos:")
-    print ((vuelto - int (vuelto))*100)
+    print (int((vuelto - int (vuelto))*100))
 change()
+
